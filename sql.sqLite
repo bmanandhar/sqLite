@@ -1,7 +1,7 @@
 SELECT * FROM celebs;
 
  <Sql statement>:
-
+<CREATE statement creates a table>
 CREATE TABLE table_name (
 		column_1 data_type,
   	column_2 data_type,
@@ -9,3 +9,11 @@ CREATE TABLE table_name (
 );
 
 CREATE TABLE celebs (id INTEGER, name TEXT, age INTEGER);
+
+<Add row>
+
+INSERT INTO celebs (id, name, age)
+values (1,'Justin Bieber', 21);
+
+<To view the row you just created, under the INSERT statement type>
+SELECT * FROM celebs;
