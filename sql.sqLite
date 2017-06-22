@@ -17,3 +17,19 @@ values (1,'Justin Bieber', 21);
 
 <To view the row you just created, under the INSERT statement type>
 SELECT * FROM celebs;
+
+<2 more rows added>
+
+INSERT INTO celebs (id, name, age)
+VALUES (3, 'Jeremy Lin', 26);
+
+INSERT INTO celebs (id, name, age)
+VALUES (4, 'Taylor Swift', 26);
+
+<Select>
+SELECT name FROM celebs;
+
+<Editing>
+UPDATE celebs
+SET age = 22
+WHERE id = 1;
